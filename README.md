@@ -34,11 +34,13 @@ OpenAi Whisper was suprisingly accurate with their transcription and translation
 The large model did not offer any noticeable benefit for a signficantly longer run time and larger model size.
 
 The final subtitle outputs still has issues, the technology is not quite there where AI can be relied entirely upon:
-a) Instances of mistranslations
-b) Mistiming of subtitles
-c) Long periods of no speech in audio seems to confuse the model
+
+1) Instances of mistranslations
+2) Mistiming of subtitles
+3) Long periods of no speech in audio seems to confuse the model causing mistimings of subtitles
 
 With that said though, there are use cases for this level of technology
-1) Professional translators can use this technology to create an initial draft reducing turn over time for a translated script
+
+1) Professional translators can use this technology to create an initial draft reducing turn over time for a translated script. The final SRT can simply be edited (timings and translations)
 2) Technology can accompany users with limited knowledge of target language to understand non English videos
 
