@@ -30,5 +30,15 @@ The script will strip audio from desired video. The audio is then transcribed in
 ![image](https://github.com/TON369777/TRANSCRIBETRANSLATE/assets/156875448/5f8408da-de16-4311-b8e0-7a041d44603b)
 
 
-OpenAi Whisper was suprisingly accurate with their transcription and translation (with larger the model, the more accurate in transcription). A run based on Chinese TV series 'All Men Are Brothers' was completed and the show can be understood and followed with just using the medium model.
+OpenAi Whisper was suprisingly accurate with their transcription and translation. A run based on Chinese TV series 'All Men Are Brothers' was completed and the show can be understood and followed with just using the medium model.
+The large model did not offer any noticeable benefit for a signficantly longer run time and larger model size.
+
+The final subtitle outputs still has issues, the technology is not quite there where AI can be relied entirely upon:
+a) Instances of mistranslations
+b) Mistiming of subtitles
+c) Long periods of no speech in audio seems to confuse the model
+
+With that said though, there are use cases for this level of technology
+1) Professional translators can use this technology to create an initial draft reducing turn over time for a translated script
+2) Technology can accompany users with limited knowledge of target language to understand non English videos
 
